@@ -24,9 +24,9 @@ t = 2 * vel * np.sin(theta) / g #time
 #pixel images
 cannon_size = (100,100)
 cannon_ball_sz = (25,25)
-background = pygame.transform.smoothscale(pygame.image.load("C:/Users/Alexander.n/PycharmProjects/Database/.idea/pixel.jpg").convert(), resolution)
-cannon = pygame.transform.scale(pygame.image.load("C:/Users/Alexander.n/PycharmProjects/Database/.idea/cannon.png").convert_alpha(),cannon_size)
-cannon_ball = pygame.transform.scale(pygame.image.load("C:/Users/Alexander.n/PycharmProjects/Database/.idea/cannonball.png").convert_alpha(),cannon_ball_sz)
+background = pygame.transform.smoothscale(pygame.image.load("C:/pixel.jpg").convert(), resolution)
+cannon = pygame.transform.scale(pygame.image.load("C:/cannon.png").convert_alpha(),cannon_size)
+cannon_ball = pygame.transform.scale(pygame.image.load("C:/cannonball.png").convert_alpha(),cannon_ball_sz)
 cannonball_rect = cannon_ball.get_rect(topleft=(0,370))
 
 
