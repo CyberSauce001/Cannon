@@ -1,3 +1,7 @@
+#This code can be found on https://stackoverflow.com/questions/32798200/animating-the-path-of-a-projectile-in-python
+#I do not take credit for this as I am using the math formula behind this for projectile motion of pygame. 
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
